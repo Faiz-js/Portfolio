@@ -1,1 +1,1 @@
-These is the code of my portfolio website, I have used NextJS and TailwindCSS for developing my portfolio.
+These is the code of my portfolio website, I have used NextJS and TailwindCSS for developing my portfolio. myData out

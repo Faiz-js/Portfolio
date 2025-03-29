@@ -60,7 +60,7 @@ export default function InternshipProjects() {
               <Card.Badge>Figma</Card.Badge>
             </Card.Badges>
             <Card.Buttons>
-              <Card.LiveButton live="https://logitech-faizjs.netlify.app/">
+              <Card.LiveButton live="https://job-portal-faizjs.netlify.app/">
                 Live demo
               </Card.LiveButton>
               <Card.URLButton github="https://github.com/Faiz-js/NovaNectar-JobPortal">
@@ -95,6 +95,39 @@ export default function InternshipProjects() {
                 Live demo
               </Card.LiveButton>
               <Card.URLButton github="https://github.com/Faiz-js/NovaNectar-Sidhbali">
+                Source code
+              </Card.URLButton>
+            </Card.Buttons>
+          </Card.Content>
+        </Card>
+
+        <Card>
+          <Card.Image
+            src="/fitness.png"
+            alt="Website image"
+            width={200}
+            height={100}
+          />
+          <Card.Content>
+            <Card.Title>Fitness Freak website</Card.Title>
+            <Card.Description>
+              In these project, I have developed a fitness website using an API
+              named ExerciseDB from RapidAPI. The users can search for any
+              exercise or search for any muscle group and get the exercises
+              related to that muscle group.
+            </Card.Description>
+            <Card.Badges>
+              <Card.Badge>ReactJS</Card.Badge>
+              <Card.Badge>MaterialUI</Card.Badge>
+              <Card.Badge>API</Card.Badge>
+              <Card.Badge>ExerciseDB</Card.Badge>
+              <Card.Badge>RapidAPI</Card.Badge>
+            </Card.Badges>
+            <Card.Buttons>
+              <Card.LiveButton live="https://fitness-faizjs.netlify.app/">
+                Live demo
+              </Card.LiveButton>
+              <Card.URLButton github="https://github.com/Faiz-js/Novanectar-fitness">
                 Source code
               </Card.URLButton>
             </Card.Buttons>

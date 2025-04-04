@@ -114,9 +114,9 @@ export default function About() {
         <AboutCompo.Heading>Backend learning</AboutCompo.Heading>
         <AboutCompo.Paragraph>
           To be honest I really struggled learning backend development, may be
-          that's not of my type, like I knew the syntax but I didn't knew how
-          can I use them in a real world application. So I sticked with Frontend
-          development.
+          that&apos;s not of my type, like I knew the syntax but I didn't knew
+          how can I use them in a real world application. So I sticked with
+          Frontend development.
         </AboutCompo.Paragraph>
       </AboutCompo>
 

@@ -13,7 +13,7 @@ export default function HeroSection() {
       <div className="order-2 md:order-1 flex flex-col gap-6">
         <div className="text-2xl lg:text-5xl">
           <h1>
-            Hi, I'm <span className="font-bold">Faiz Mohamed</span> 👋
+            Hi, I&apos;m <span className="font-bold">Faiz Mohamed</span> 👋
           </h1>
 
           <p>Frontend Developer</p>

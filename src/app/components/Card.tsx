@@ -49,7 +49,7 @@ interface CardURLButtonProps {
 
 export default function Card({ children }: CardProps) {
   return (
-    <div className="bg-[hsl(var(--card))] text-[hsl(var(--card-foreground))] rounded-xl shadow-sm hover:shadow-lg hover:shadow-[hsl(var(--secondary))] transition-all duration-300 p-4 flex flex-col justify-between gap-2 h-full mx-auto max-w-[460px] md:w-auto border border-[hsl(var(--border))]">
+    <div className="bg-[hsl(var(--card))] text-[hsl(var(--card-foreground))] rounded-xl shadow-sm hover:shadow-lg hover:shadow-[hsl(var(--secondary))] transition-all duration-300 p-4 flex flex-col justify-between gap-2 h-full mx-auto max-w-[460px] md:w-auto border border-[hsl(var(--border))] hover:-translate-y-2">
       {children}
     </div>
   );

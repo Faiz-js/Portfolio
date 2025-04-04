@@ -39,36 +39,6 @@ export default function PersonalProjects() {
 
         <Card>
           <Card.Image
-            src="/contactApp.png"
-            alt="Website image"
-            width={200}
-            height={100}
-          />
-          <Card.Content>
-            <Card.Title>Contact App</Card.Title>
-            <Card.Description>
-              A website in which a user can store the name and email of other
-              users using Firebase.
-            </Card.Description>
-            <Card.Badges>
-              <Card.Badge>ReactJS</Card.Badge>
-              <Card.Badge>TailwindCSS</Card.Badge>
-              <Card.Badge>Responsive</Card.Badge>
-              <Card.Badge>FirebaseDB</Card.Badge>
-            </Card.Badges>
-            <Card.Buttons>
-              <Card.LiveButton live="https://logitech-faizjs.netlify.app/">
-                Live demo
-              </Card.LiveButton>
-              <Card.URLButton github="https://github.com/Faiz-js/NovaNectar-JobPortal">
-                Source code
-              </Card.URLButton>
-            </Card.Buttons>
-          </Card.Content>
-        </Card>
-
-        <Card>
-          <Card.Image
             src="/ecommerce.png"
             alt="Website image"
             width={200}

@@ -5,12 +5,10 @@ import About from "./components/About";
 import Contact from "./components/Contact";
 import Technologies from "./components/Technologies";
 import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
 
 export default function page() {
   return (
     <div className="px-4 md:px-0 space-y-8 md:space-y-10 w-full md:max-w-3xl mx-auto">
-      <Navbar />
       <HeroSection />
       <Projects />
       <About />

@@ -45,7 +45,7 @@ export default function Contact() {
       });
       setFormData({ name: "", email: "", message: "" });
     } catch (error) {
-      console.log(error)
+      console.log(error);
       setStatus({
         type: "error",
         message: "Failed to send message. Please try again.",
@@ -127,7 +127,7 @@ export default function Contact() {
         <button
           type="submit"
           disabled={isLoading}
-          className="bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] py-3 px-6 w-full md:w-auto rounded-md hover:cursor-pointer hover:scale-110 hover:shadow-lg transition duration-300 disabled:opacity-50"
+          className="bg-[hsl(var(--primary))] text-[hsl(var(--primary-foreground))] py-3 px-6 w-full md:w-auto rounded-md hover:cursor-pointer hover:scale-110 hover:shadow-lg transition duration-300 disabled:opacity-50 font-semibold"
         >
           {isLoading ? "Sending..." : "Submit"}
         </button>
